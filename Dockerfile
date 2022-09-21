@@ -1,7 +1,7 @@
 FROM adoptopenjdk/openjdk11:alpine-jre
 
 # Refer to Maven build -> finalName
-ARG JAR_FILE=target/name-service-0.0.1.jar
+ARG JAR_FILE=target/bifrost-service-0.0.1.jar
 
 # cd /opt/app
 WORKDIR /opt/app
